@@ -82,13 +82,17 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
+                    @foreach($test as $one)
+                        {{$one->Nom_User}}
+
+                    @endforeach
                 </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog de dqsfdqsfqsdf pennerad</a>
+                    <a href="https://blog.laravel.com">Blog de </a>
                     <a href="https://nova.laravel.com">Nova</a>
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
